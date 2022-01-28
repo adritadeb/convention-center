@@ -17,9 +17,9 @@
 </head>
 
 <body>
-    <header>
+    <header style="font-family: 'Poppins', sans-serif;">
         <!---- Navber ---->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white" style="font-family: 'Poppins', sans-serif;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container">
                 <a class="navbar-brand fw-bold" href="#">Barre Convention Center</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,6 +45,72 @@
                 </div>
             </div>
         </nav>
+        <!---- image-slider ---->
+        <section>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <!-- slide-1 -->
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="convention-center-main/images/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h1 class="text-uppercase text-white fs-1">make your event special with us</h1>
+                            <p class="text-white">Are you finding a perfect venue for next event? Then you are
+                                in the
+                                right place. Please tell us your condition and help us to find better options for you.
+                            </p>
+                            <a class="btn btn-light btn-lg text-primary" href="https://web.programming-hero.com/"
+                                role="button">Book Now</a>
+                        </div>
+                    </div>
+                    <!-- slide-2 -->
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="convention-center-main/images/banner-2.png" class="d-block w-100"
+                            style="height: 554px;" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h1 class="text-uppercase text-white fs-1">make your event special with us</h1>
+                            <p class="text-white">Are you finding a perfect venue for next event? Then you are
+                                in the
+                                right place. Please tell us your condition and help us to find better options for you.
+                            </p>
+                            <a class="btn btn-light btn-lg text-primary" href="https://web.programming-hero.com/"
+                                role="button">Book Now</a>
+                        </div>
+                    </div>
+                    <!-- slide-3 -->
+                    <div class="carousel-item">
+                        <img src="convention-center-main/images/banner-3.jpg" class="d-block w-100"
+                            style="height: 554px;" alt="...">
+                        <div class="carousel-caption d-none d-md-block mb-5">
+                            <h1 class="text-uppercase text-white fs-1">make your event special with us</h1>
+                            <p class="text-white">Are you finding a perfect venue for next event? Then you are
+                                in the
+                                right place. Please tell us your condition and help us to find better options for you.
+                            </p>
+                            <a class="btn btn-light btn-lg text-primary" href="https://web.programming-hero.com/"
+                                role="button">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
     </header>
     <!-- bootstrap-js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
